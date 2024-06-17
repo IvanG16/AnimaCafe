@@ -1,4 +1,5 @@
-import { productos } from "./CafeInfo/productos"
+import { productos } from "../../CafeInfo/productos"
+
 
 
 export default function FilaProductos(){
@@ -8,4 +9,3 @@ export default function FilaProductos(){
         </>
     )
 }
-

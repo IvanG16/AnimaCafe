@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {productos} from "./CafeInfo/productos"
+import {productos} from "../../CafeInfo/productos"
 import './App.css'
 
 function App() {
