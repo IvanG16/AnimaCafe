@@ -1,13 +1,14 @@
 import { useState } from 'react'
-import {productos} from "../../CafeInfo/productos"
-import './App.css'
+import Productos from "../../CafeInfo/productos"
+import TablaProductos from '../TablaProductos'
+import './index.css'
 
 function App() {
 
   return (
     <>
       <h1>Anima</h1>
-      <TablaProductos productos={productos}/>
+      <TablaProductos Productos = { Productos }/>
     </>
   )
 }
