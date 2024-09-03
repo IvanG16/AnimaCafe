@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import Productos from "../../CafeInfo/productos"
-import TablaProductos from '../TablaProductos'
 import './index.css'
 
 function App() {
-
+  
   return (
     <>
-      <h1>Anima</h1>
-      <TablaProductos Productos = { Productos }/>
+      <h1>
+        Hi there! This is a simple React app.
+      </h1>
+      <p>
+        Type in the URL /Pokedex/:pokemon to see a Pokemon.
+      </p>
     </>
   )
 }
