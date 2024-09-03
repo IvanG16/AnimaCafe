@@ -19,19 +19,25 @@ export const Pokemon = () => {
 
     if(randomeNumber === pokemon.id){
       return (
-        <>
+        <div className="grassy-background">
           <h2> Pokemon:</h2>
           <h1> {pokemon?.name}! </h1>
-          <img src={pokemon?.sprites?.front_shiny} alt={pokemon?.name} />
-        </>
+          <div className="encounter">
+            <img className="grass" src="https://tiermaker.com/images/chart/chart/pokemon-tall-grass-overworld-textures-363297/lgpepng.png" alt="tall grass" />
+            <img className="grass" src={pokemon?.sprites?.front_shiny} alt={pokemon?.name} />
+          </div>
+        </div>
       )
     }else {
       return (
-        <>
+        <div className="grassy-background">
           <h2> Pokemon:</h2>
           <h1> {pokemon?.name}! </h1>
-          <img src={pokemon?.sprites?.front_default} alt={pokemon?.name} />
-        </>
+          <div className="encounter">
+            <img className="grass" src="https://tiermaker.com/images/chart/chart/pokemon-tall-grass-overworld-textures-363297/lgpepng.png" alt="tall grass" />
+            <img className="grass" src={pokemon?.sprites?.front_default} alt={pokemon?.name} />
+          </div>
+        </div>
       )
     }
 }
